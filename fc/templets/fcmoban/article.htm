@@ -1,0 +1,25 @@
+{dede:include filename="head.htm"/}
+{dede:include filename="search.htm"/}
+{dede:include filename="list_article_nav.htm"/}
+<div class="area_box">
+    <div class="siteMap clearfix">
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="#">新闻中心</a></li>
+            <li class="current"><a href="#">实时新闻</a></li>
+        </ul>
+    </div>
+    <div class="intro">
+        <h2 class="sub_tit"><img src="{dede:global.cfg_templets_skin/}/images/news_tit.png"></h2>
+        <div class="intro_cont clearfix">
+            {dede:include filename="left.htm"/}
+            <div class="col_right">
+                <div class="intro_info">
+                    <!--<p><img src="{dede:global.cfg_templets_skin/}/images/pic07.jpg"></p>-->
+                    {dede:field.body/}
+                </div>
+            </div>
+        </div><!-- / 新闻中心 -->
+    </div>
+</div><!-- / area_box -->
+{dede:include filename="footer.htm"/}

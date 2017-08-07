@@ -1,0 +1,39 @@
+{dede:include filename="head.htm"/}
+{dede:include filename="search.htm"/}
+{dede:include filename="list_article_nav.htm"/}
+<div class="area_box">
+    <div class="siteMap clearfix">
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li><a href="#">新闻中心</a></li>
+            <li class="current"><a href="#">实时新闻</a></li>
+        </ul>
+    </div>
+    <div class="intro">
+        <h2 class="sub_tit"><img src="{dede:global.cfg_templets_skin/}/images/news_tit.png"></h2>
+        <div class="intro_cont clearfix">
+            {dede:include filename="left.htm"/}
+            <div class="col_right">
+                <div class="news_area">
+                    <ul class="news_list clearfix">
+                        {dede:list pagesize='6' titlelen="50" addfields='body'}
+                        <li>
+                            <p class="news_time">[field:pubdate function="MyDate('Y-m-d',@me)"/]</p>
+                            <h2>[field:title/]</h2>
+                            <div class="news_cont">
+                                <p>[field:description /]</p>
+                            </div>
+                            <a href="[field:arcurl/]" class="news_more">查看更多</a>
+                        </li>
+                        {/dede:list}
+                    </ul>
+                    <!-- / news_list -->
+                    <div class="page">
+                        {dede:pagelist listitem="info,index,end,pre,next,pageno" listsize="6"/}
+                    </div>
+                </div><!-- /news_list -->
+            </div>
+        </div>
+    </div><!-- / 新闻中心 -->
+</div><!-- / area_box -->
+{dede:include filename="footer.htm"/}

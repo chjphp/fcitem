@@ -1,0 +1,2 @@
+[field:body /]
+                    {dede:type

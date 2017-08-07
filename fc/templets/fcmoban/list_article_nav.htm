@@ -1,0 +1,14 @@
+<div class="nav">
+	<ul class="clearfix">
+		{dede:channelartlist typeid='23,1,4,7,13,18' row='10'}
+		<li>
+			<a href="{dede:field name='typeurl'/}"><span>{dede:field name="typename"/}</span></a>
+			<div class="nav_cont">
+				{dede:channel type='son' row='10'}
+				<a href="[field:typeurl/]">[field:typename/]</a>
+				{/dede:channel}
+			</div>
+		</li>
+		{/dede:channelartlist}
+	</ul>
+</div><!-- / 导航 -->
