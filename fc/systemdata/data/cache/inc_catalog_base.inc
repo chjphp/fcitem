@@ -23,4 +23,11 @@ $cfg_Cs[20]=array(1,1,1,'5bel6KOF6K6+6K6h');
 $cfg_Cs[21]=array(1,1,1,'6KOF5L+u5ZKo6K+i');
 $cfg_Cs[22]=array(1,1,1,'6KOF5L+u5bel56iL');
 $cfg_Cs[23]=array(0,1,1,'6aaW6aG1');
+$cfg_Cs[24]=array(8,1,1,'5Yir5aKF');
+$cfg_Cs[25]=array(8,1,1,'5aSN5byP');
+$cfg_Cs[26]=array(8,1,1,'6LeD5bGC');
+$cfg_Cs[27]=array(10,1,1,'5Yir5aKF');
+$cfg_Cs[28]=array(11,1,1,'5Yir5aKF');
+$cfg_Cs[29]=array(12,1,1,'5Yir5aKF');
+$cfg_Cs[30]=array(9,1,1,'5Yir5aKF');
 ?>

@@ -12,7 +12,7 @@ input,button,textarea,select,optgroup,option{ font-weight:inherit; font-style:in
 code,kbd,samp,tt{ font-size:100%; }
 textarea{ resize:none; overflow:auto; }
 input,button,textarea,select{ *font-size:100%; }
-input,label{ vertical-align:middle; } 
+input,label{ vertical-align:middle; }
 ol,ul{ list-style:none; }
 table{ border-collapse:collapse; border-spacing:0; }
 caption,th{ text-align:left; }
@@ -158,8 +158,6 @@ body{ background:url(../images/body_bg.jpg) no-repeat center top; height:100%;}
 .page li a:hover{background:#f8b62b;}
 
 
-
-
 .product_box{}
 .tab_nav{width:100%; background:#9fa0a0; margin-bottom:20px;}
 .tab_nav li{cursor:pointer; float:left; padding:0 100px; line-height:50px; font-size:16px;}
@@ -171,10 +169,9 @@ body{ background:url(../images/body_bg.jpg) no-repeat center top; height:100%;}
 
 .product_list .hover_cont{background:url(../images/transparent.png) repeat; height:260px; position:absolute; top:0; left:0; width:100%; display:none;}
 
-
 .cut_line { height:2px;background:#c8c4c3;position:relative; top:50%; width:230px; margin:0 auto;}
 .cut_line h2{ position:absolute;left:50%;top:-20px;background:#9fa0a0;margin-left:-70px;padding:2px 10px; text-align:center; color:#fff;}
 .text_msg{margin-top:20px;}
 .text_msg p{line-height:26px;}
-
-
+.text_msg p{line-height:26px;}
+.anli_nav li a{color:black;}
