@@ -19,8 +19,17 @@
 	<div class="tab_line"></div>
 
 	<div class="tabContent">
-		<div class="tab_con block"><img src="{dede:global.cfg_templets_skin/}/images/pic01.jpg" ></div>
-		<div class="tab_con"><img src="{dede:global.cfg_templets_skin/}/images/pic01.jpg" ></div>
-		<div class="tab_con"><img src="{dede:global.cfg_templets_skin/}/images/pic01.jpg" ></div>
+		{dede:arclist idlist='12' limit='0,1'  titlelen='24' infolen='200'}
+		<div class='tab_con block'><img alt="[field:title/]" src="[field:litpic/]" ></div>
+		{/dede:arclist}
+		{dede:arclist idlist='13' limit='0,1'  titlelen='24' infolen='200'}
+		<div class='tab_con'><img alt="[field:title/]" src="[field:litpic/]" ></div>
+		{/dede:arclist}
+		{dede:arclist idlist='14' limit='0,1'  titlelen='24' infolen='200'}
+		<div class='tab_con'><img alt="[field:title/]" src="[field:litpic/]" ></div>
+		{/dede:arclist}
+		<!--{dede:arclist typeid='23' flag='h,p'}-->
+		<!--<div class='tab_con [field:global name=autoindex runphp="yes"](@me==1)? @me="block":@me="";[/field:global]'><img src="[field:litpic/]" ></div>-->
+		<!--{/dede:arclist}-->
 	</div>
 </div>
